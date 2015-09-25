@@ -1,0 +1,35 @@
+{
+  "name": "passport-scriptr",
+  "version": "0.0.1",
+  "description": "Scriptr OAuth2 (Implicit grant-type) strategy for Passport.",
+  "keywords": [
+    "passport",
+    "scriptr",
+    "io",
+    "auth",
+    "authn",
+    "authentication",
+    "identity"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/marvettefeghali/passport-scriptr.git"
+  },
+  "bugs": {
+    "url": "http://github.com/marvettefeghali/passport-scriptr/issues"
+  },
+  "licenses": [
+    {
+      "type": "MIT",
+      "url": "http://www.opensource.org/licenses/MIT"
+    }
+  ],
+  "main": "./lib/passport-scriptr",
+  "dependencies": {
+    "pkginfo": "0.2.x",
+    "passport-oauth": "~0.1.1"
+  },
+  "engines": {
+    "node": ">= 0.4.0"
+  }
+}
